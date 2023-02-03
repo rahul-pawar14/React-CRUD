@@ -1,0 +1,108 @@
+/* h1 {
+    color: #27aedb;
+    text-align: center;
+    }
+    
+button{
+    color: #27aedb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.bg-pink{
+	background-color:pink;
+} */
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background: #3d0fa0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.center_div {
+  width: 25%;
+  height: 80vh;
+  background-color: white;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+h1 {
+  color: white;
+  background: transparent;
+  background-color: #8566aa;
+  padding-bottom: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+}
+input {
+  text-align: center;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+button {
+  min-height: 20px;
+  width: 70px;
+  /* border-radius: 50%; */
+  border-color: transparent;
+  background-color: #8566aa;
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+button:hover {
+  background-color: #20bf6b;
+}
+ol li {
+  padding-left: 0px;
+  text-align: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #1c51b4;
+  text-transform: capitalize;
+}
+ol {
+  margin-top: 30px;
+}
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .fa-items {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #440e86;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo_style .fa-items:hover {
+  color: crimson;
+}
+
+/* .todo_style .fa-items:hover .list_style {
+    color: crimson;
+  } */
